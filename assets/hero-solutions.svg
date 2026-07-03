@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial supply solution visual</title>
+  <desc id="desc">Ink cartridges, plotter, fabric cutting machine and coding machine.</desc>
+  <rect width="900" height="620" fill="#f6faf8"/>
+  <path d="M0 480 C150 405 275 432 430 492 C600 558 742 560 900 472 L900 620 L0 620 Z" fill="#007c72"/>
+  <path d="M740 0 L900 0 L900 190 C838 159 792 104 740 0Z" fill="#df2f2f"/>
+  <g transform="translate(52 95)">
+    <rect x="0" y="40" width="475" height="150" rx="22" fill="#30363d"/>
+    <rect x="38" y="12" width="390" height="112" rx="16" fill="#f4f6f8" stroke="#b9c3c8" stroke-width="4"/>
+    <rect x="74" y="76" width="330" height="34" rx="10" fill="#17211f"/>
+    <rect x="98" y="128" width="300" height="142" fill="#fff" stroke="#c7d2d0" stroke-width="3"/>
+    <path d="M130 158 C168 210 210 180 248 235 M215 150 C232 196 280 190 310 245 M335 156 C310 206 370 215 385 260" fill="none" stroke="#88a7d8" stroke-width="3"/>
+    <rect x="24" y="185" width="34" height="150" fill="#30363d"/>
+    <rect x="420" y="180" width="34" height="155" fill="#30363d"/>
+    <rect x="0" y="326" width="475" height="16" rx="8" fill="#17211f"/>
+  </g>
+  <g transform="translate(520 85)">
+    <rect x="145" y="115" width="60" height="215" rx="8" fill="#d9dedf" stroke="#8b9497" stroke-width="3"/>
+    <rect x="90" y="70" width="122" height="120" rx="20" fill="#eff2f3" stroke="#8b9497" stroke-width="3"/>
+    <circle cx="152" cy="130" r="44" fill="#c5cccf" stroke="#747d80" stroke-width="4"/>
+    <rect x="0" y="260" width="310" height="46" rx="6" fill="#17211f"/>
+    <path d="M60 260 L250 260 L230 228 L88 228 Z" fill="#30363d"/>
+    <rect x="145" y="320" width="80" height="34" fill="#eff2f3" stroke="#8b9497" stroke-width="3"/>
+    <path d="M175 12 L175 120" stroke="#8b9497" stroke-width="12" stroke-linecap="round"/>
+    <path d="M95 168 L40 205" stroke="#17211f" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(115 405)">
+    <rect width="82" height="136" rx="12" fill="#22282d"/>
+    <rect x="102" width="82" height="136" rx="12" fill="#16a6d1"/>
+    <rect x="204" width="82" height="136" rx="12" fill="#e64b86"/>
+    <rect x="306" width="82" height="136" rx="12" fill="#f5c542"/>
+    <g fill="#fff" opacity=".86">
+      <rect x="22" y="28" width="38" height="18" rx="5"/>
+      <rect x="124" y="28" width="38" height="18" rx="5"/>
+      <rect x="226" y="28" width="38" height="18" rx="5"/>
+      <rect x="328" y="28" width="38" height="18" rx="5"/>
+    </g>
+    <g fill="#007c72">
+      <rect x="27" y="72" width="28" height="36" rx="4"/>
+      <rect x="129" y="72" width="28" height="36" rx="4"/>
+      <rect x="231" y="72" width="28" height="36" rx="4"/>
+      <rect x="333" y="72" width="28" height="36" rx="4"/>
+    </g>
+  </g>
+  <g transform="translate(575 385)">
+    <rect x="0" y="80" width="245" height="118" rx="12" fill="#d9dedf" stroke="#8b9497" stroke-width="4"/>
+    <rect x="18" y="0" width="210" height="96" rx="12" fill="#f1f4f5" stroke="#8b9497" stroke-width="4"/>
+    <rect x="46" y="24" width="92" height="40" rx="6" fill="#6e8795"/>
+    <g fill="#ffffff">
+      <rect x="48" y="74" width="14" height="10" rx="2"/>
+      <rect x="68" y="74" width="14" height="10" rx="2"/>
+      <rect x="88" y="74" width="14" height="10" rx="2"/>
+      <rect x="108" y="74" width="14" height="10" rx="2"/>
+      <rect x="128" y="74" width="14" height="10" rx="2"/>
+      <rect x="148" y="74" width="14" height="10" rx="2"/>
+    </g>
+    <path d="M230 145 C286 145 280 95 334 95" fill="none" stroke="#17211f" stroke-width="12" stroke-linecap="round"/>
+    <rect x="308" y="70" width="86" height="42" rx="8" fill="#f1f4f5" stroke="#8b9497" stroke-width="4"/>
+  </g>
+</svg>
