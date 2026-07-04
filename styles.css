@@ -926,14 +926,14 @@ h3 {
 .trust-visual.image-visual {
   display: block;
   min-height: 0;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1448 / 1086;
   background: #fff;
 }
 .trust-visual.image-visual img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .city-panel {
   position: relative;
@@ -1269,6 +1269,55 @@ textarea {
   text-align: center;
   font-size: 12px;
 }
+.catalog-page {
+  background: #fff;
+}
+.catalog-hero {
+  min-height: calc(100vh - 110px);
+  display: grid;
+  place-items: center;
+  padding: 150px 24px 72px;
+  background:
+    linear-gradient(180deg, rgba(244, 24, 38, 0.04), rgba(255, 255, 255, 0) 46%),
+    #fff;
+}
+.catalog-panel {
+  width: min(860px, 100%);
+  text-align: center;
+}
+.catalog-panel h1 {
+  margin: 14px auto 16px;
+  max-width: 760px;
+  color: var(--ink);
+  font-size: clamp(42px, 6vw, 76px);
+  line-height: 0.98;
+}
+.catalog-subtitle {
+  max-width: 660px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: clamp(18px, 2.2vw, 24px);
+  line-height: 1.45;
+}
+.catalog-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+.download-status {
+  min-height: 22px;
+  margin: 18px 0 0;
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 800;
+}
+.catalog-footer-section {
+  padding: 62px 0 32px;
+  background: var(--footer);
+  color: #fff;
+}
 .sticky-whatsapp {
   position: fixed;
   right: 22px;
@@ -1369,6 +1418,20 @@ textarea {
   .nav-link.active::after { display: none; }
   .header-actions {
     display: none;
+  }
+  .catalog-hero {
+    min-height: auto;
+    padding: 130px 18px 58px;
+  }
+  .catalog-panel h1 {
+    font-size: clamp(36px, 12vw, 52px);
+  }
+  .catalog-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .catalog-actions .btn {
+    width: 100%;
   }
   .screen { min-height: auto; }
   .home-screen {

@@ -12,6 +12,22 @@ document.querySelectorAll(".js-whatsapp").forEach((link) => {
   link.rel = "noopener";
 });
 
+document.querySelectorAll(".js-catalog-download").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    const status = document.querySelector(".download-status");
+    if (status) status.textContent = "Download started. Please check your browser downloads.";
+
+    const downloadLink = document.createElement("a");
+    downloadLink.href = link.href;
+    downloadLink.download = link.getAttribute("download") || "catalog.pdf";
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    downloadLink.remove();
+  });
+});
+
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".header-nav");
 
