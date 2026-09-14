@@ -1,0 +1,15 @@
+<svg class="hero-paper-art hero-machine-plotter" viewBox="0 0 1448 1086" aria-hidden="true" focusable="false">
+<defs><linearGradient id="paper-tone" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e5e5e9"/><stop offset=".28" stop-color="#f1f1f3"/><stop offset="1" stop-color="#e5e5e9"/></linearGradient><filter id="paper-logo-red" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 .894118 0 0 0 0 .062745 0 0 0 0 .094118 8 -8 0 0 -.8"/></filter></defs>
+<path d="M239 435 L1230 435 L1197 646 L259 646 Z" fill="url(#paper-tone)"/>
+<g fill="none" stroke="#8d9298" stroke-width="1.6" opacity=".58" stroke-linejoin="round">
+<path d="M291 612 L298 498 L326 479 Q342 503 363 483 L391 496 Q378 528 402 544 L405 612 Z M305 601 L311 506 L326 496 Q345 512 363 499 L376 504 Q369 532 389 550 L392 601 Z"/>
+<path d="M434 612 L438 495 L466 480 Q486 490 503 480 L529 498 Q519 532 539 547 L541 612 Z M447 601 L451 503 L466 493 Q486 502 503 493 L516 505 Q512 533 526 550 L528 601 Z"/>
+<path d="M575 609 L585 529 Q589 488 626 482 Q662 488 668 529 L680 609 Z M588 598 L598 530 Q605 496 626 496 Q649 498 655 532 L666 598 Z"/>
+<path d="M887 482 L963 482 L960 526 Q944 536 945 553 L955 612 L916 612 L911 553 L903 611 L864 611 L884 530 Z M897 494 L951 494 L949 520 Q930 540 933 555 L941 601 M918 601 L912 542 L879 601"/>
+<path d="M1002 482 L1048 482 L1072 610 L1034 610 L1022 549 L1016 610 L979 610 Z M1012 494 L1038 494 L1058 599 M1041 599 L1020 534 L991 599"/>
+<path d="M1090 492 L1177 492 L1169 520 L1087 520 Z M1090 546 Q1123 526 1169 550 L1161 591 Q1125 576 1086 592 Z"/>
+<g stroke-dasharray="5 5"><path d="M347 518 V596 M487 511 V596 M626 508 V592 M925 498 V538 M1022 498 V530 M1100 505 H1163"/><path d="M321 569 L347 581 L369 569 M462 569 L487 581 L510 569"/></g>
+<g stroke-width="1"><path d="M341 524 L347 518 L353 524 M481 517 L487 511 L493 517 M620 514 L626 508 L632 514"/></g>
+</g>
+<svg x="705" y="543" width="151" height="55" viewBox="497 462 440 158"><image href="assets/home/wecare-garment-cad-inkjet-plotter-original.jpg" width="1448" height="1086" filter="url(#paper-logo-red)"/></svg>
+</svg>

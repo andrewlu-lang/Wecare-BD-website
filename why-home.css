@@ -1,0 +1,85 @@
+.home-page .why-screen { grid-template-columns: minmax(0,.92fr) minmax(0,1.08fr); gap: 64px; padding: 64px max(40px,calc((100vw - 1480px)/2)); min-height: 0; align-items: start; background: #fff; }
+.home-page .why-copy { max-width: none; }
+.home-page .why-copy .section-label { font-size: 13px; letter-spacing: .15em; margin-bottom: 18px; }
+.home-page .why-copy h2 { font-size: clamp(36px,2.7vw,46px); font-weight: 750; line-height: 1.1; letter-spacing: -.025em; margin-bottom: 22px; }
+.home-page .why-copy h2 span { display: block; white-space: nowrap; }
+.home-page .why-copy > p:not(.section-label) { font-size: 17px; line-height: 1.6; color: #555; }
+.home-page .why-screen .trust-points { gap: 14px; margin: 26px 0; }
+.home-page .why-screen .trust-points article { grid-template-columns: 42px minmax(0,1fr); align-items: start; padding: 20px 16px; border: 1px solid #ececec; border-radius: 13px; box-shadow: 0 5px 20px #00000006; min-height: 160px; }
+.home-page .why-screen .trust-points strong { display: block; font-size: 16px; font-weight: 700; line-height: 1.3; }
+.home-page .why-screen .trust-points p { margin: 9px 0 0; font-size: 14px; line-height: 1.5; color: #666; }
+.home-page .why-screen .small-round { background: #ed1b2412; }
+.home-page .why-copy > .btn { min-height: 54px; font-size: 16px; border-radius: 9px; padding: 13px 24px; }
+.why-partnership { margin-top: 34px; overflow: hidden; border: 1px solid #ececec; border-radius: 20px; background: #fafbfc; box-shadow: 0 8px 30px #00000006; }
+.partnership-heading { padding: 32px 32px 22px; }
+.partnership-heading h3 { font-size: clamp(28px,2.6vw,40px); line-height: 1.15; letter-spacing: -.02em; margin: 0 0 24px; }
+.partnership-heading h3 span { color: var(--red); }
+.partnership-route { display: flex; gap: 18px; align-items: center; color: #666; font-size: 13px; letter-spacing: .06em; }
+.route-line { flex: 1; border-bottom: 1px dashed #ed1b2450; color: var(--red); text-align: right; line-height: 0; margin-right: 4px; }
+.representatives { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 0 24px 24px; }
+.representatives figure { min-width: 0; margin: 0; }
+.representatives img { width: 100%; height: 360px; object-fit: cover; object-position: center 35%; border-radius: 12px 12px 0 0; }
+.representatives figcaption { min-height: 80px; background: #fff; border: 1px solid #eee; border-radius: 0 0 10px 10px; padding: 14px 12px; }
+.representatives figcaption strong { display: block; font-size: 14px; line-height: 1.35; }
+.representatives figcaption span { display: block; font-size: 12px; color: #666; margin-top: 5px; }
+@media (min-width:1101px) and (max-height:800px) { .home-page .why-screen { padding-block: 40px; } .home-page .why-screen .trust-points article { padding-block: 14px; } .representatives img { height: 310px; } }
+@media (max-width:1100px) { .home-page .why-screen { grid-template-columns: 1fr; gap: 32px; padding: 48px 28px; } .home-page .why-copy,.why-partnership { width: 100%; max-width: 720px; margin-inline: auto; } .why-partnership { margin-top: 0; } }
+@media (max-width:580px) { .home-page .why-screen { padding: 40px 22px; } .home-page .why-copy h2 { font-size: 32px; } .home-page .why-copy h2 span { white-space: normal; } .home-page .why-screen .trust-points { grid-template-columns: 1fr; } .home-page .why-screen .trust-points article { min-height: 125px; padding: 20px; } .partnership-heading { padding: 24px 20px; } .representatives { padding: 0 14px 16px; gap: 10px; } .representatives img { height: 245px; } .representatives figcaption { min-height: 90px; padding: 12px 9px; } .representatives figcaption strong { font-size: 12px; } }
+@media (min-width:1101px) {
+ .home-page .why-copy h2 { font-size: clamp(42px,3.2vw,50px); }
+ .home-page .why-screen .trust-points { grid-auto-rows: 1fr; }
+}
+/* Right partnership card v3. Left copy, feature cards and section grid are unchanged. */
+.why-partnership { background: #fff; border: 1px solid #f0f0f0; border-radius: 30px; box-shadow: 0 8px 32px #00000005; }
+.partnership-heading { position: relative; isolation: isolate; padding: 30px 28px 28px; }
+.connection-globe { position: absolute; right: 2px; top: 2px; width: 190px; height: 155px; z-index: -1; pointer-events: none; }
+.partnership-heading h3 { font-size: clamp(38px,3.25vw,50px); font-weight: 800; line-height: 1.12; letter-spacing: -.035em; margin-bottom: 28px; }
+.partnership-route { gap: 16px; font-size: 13px; color: #777; letter-spacing: .025em; }
+.route-line { position: relative; height: 1px; border: 0; border-top: 1px dashed #ed1b2470; margin-right: 2px; }
+.route-line::after { content: ''; position: absolute; width: 5px; height: 5px; right: 0; top: -3px; border-right: 1px solid var(--red); border-top: 1px solid var(--red); transform: rotate(45deg); }
+.representatives { gap: 16px; padding: 0 24px 24px; }
+.representatives figure { overflow: hidden; border: 1px solid #eee; border-radius: 14px; background: #fff; box-shadow: 0 3px 12px #00000003; display: flex; flex-direction: column; }
+.representative-photo { height: 300px; overflow: hidden; background: #fff; }
+.representatives .representative-photo img { width: 100%; height: 100%; object-fit: contain; object-position: center bottom; border-radius: 0; }
+.representatives figcaption { flex: 1; min-height: 152px; padding: 16px 12px; border: 0; border-top: 1px solid #f3f3f3; border-radius: 0; }
+.representatives .representative-role { color: #666; font-size: 12px; line-height: 1.35; margin: 0 0 5px; min-height: 17px; }
+.representatives figcaption strong { color: #222; font-size: 17px; margin-bottom: 13px; }
+.representatives figcaption a { display: flex; align-items: flex-start; gap: 7px; color: #555; margin-top: 8px; }
+.representatives figcaption a span { font-size: 11.5px; line-height: 1.4; margin: 0; color: inherit; overflow-wrap: anywhere; }
+.representatives figcaption a svg { width: 15px; height: 15px; flex: 0 0 15px; stroke-width: 1.6; color: var(--red); }
+.representatives figcaption a:hover { color: var(--red); }
+@media (max-width:580px) {
+ .partnership-heading { padding: 26px 18px; }
+ .partnership-heading h3 { font-size: clamp(27px,7.5vw,38px); }
+ .connection-globe { width: 125px; height: 110px; opacity: .65; }
+ .representatives { padding: 0 12px 16px; gap: 10px; }
+ .representative-photo { height: 210px; }
+ .representatives figcaption { padding: 12px 8px; min-height: 186px; }
+ .representatives .representative-role { font-size: 11px; min-height: 30px; }
+ .representatives figcaption strong { font-size: 15px; }
+ .representatives figcaption a { gap: 4px; }
+ .representatives figcaption a span { font-size: 10.5px; }
+ .representatives figcaption a svg { width: 12px; height: 12px; flex-basis: 12px; }
+}
+.connection-globe { opacity: .58; }
+.connection-globe g path { stroke: #e6e7e9; }
+.connection-globe > path { stroke: var(--red); }
+/* Final right-card treatment: a quiet map layer and readable portrait details. */
+.connection-globe { width: 210px; height: 160px; top: 4px; right: 0; opacity: .38; }
+.connection-globe .map-land path { fill: #e6e9ec; stroke: none; }
+.connection-globe .map-orbits path { fill: none; stroke: #d6dbdf; }
+.connection-globe .map-connection { fill: none; stroke: var(--red); }
+.partnership-heading h3 { font-size: clamp(39px,3.35vw,52px); }
+.representatives .representative-role { min-height: 32px; }
+.representatives figcaption a span { font-size: 12px; }
+@media (max-width:580px) {
+ .partnership-heading h3 { font-size: clamp(27px,7.5vw,38px); }
+ .connection-globe { width: 140px; height: 120px; opacity: .28; }
+ .representatives { grid-template-columns: 1fr; padding: 0 18px 20px; gap: 18px; }
+ .representative-photo { height: 290px; }
+ .representatives figcaption { min-height: 152px; padding: 16px; }
+ .representatives .representative-role { min-height: 0; font-size: 12px; }
+ .representatives figcaption strong { font-size: 18px; }
+ .representatives figcaption a span { font-size: 13px; }
+ .representatives figcaption a svg { width: 16px; height: 16px; flex-basis: 16px; }
+}
